@@ -5,7 +5,7 @@
   "keywords"        : ["geocradle","geocouch","spatial"],
   "author"          : "Sergio Matone <sergio@minimalgap.com>",
   "contributors"    : ["Chris Veness"],
-   "dependencies": {
+  "dependencies": {
     "cradle" : "git@github.com:sw360cab/cradle.git"
   },
   "version"         : "0.1.0",
