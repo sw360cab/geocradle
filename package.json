@@ -1,0 +1,17 @@
+{
+  "name"            : "geocradle",
+  "description"     : "A library to store and get positions using Geocouch and Cradle features - rely on www.movable-type.co.uk scripts",
+  "url"             : "http://minimalgap.com:3000/geocradle",
+  "keywords"        : ["geocradle","geocouch","spatial"],
+  "author"          : "Sergio Matone <sergio@minimalgap.com>",
+  "contributors"    : ["Chris Veness"],
+   "dependencies": {
+    "cradle" : "git@github.com:sw360cab/cradle.git"
+  },
+  "version"         : "0.1.0",
+  "directories": {
+    "lib": "./lib/geo"
+  },
+  "main"            : "./lib/geocradle",
+  "engines"         : { "node": ">=0.3.6" }
+}
