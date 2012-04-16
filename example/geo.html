@@ -1,0 +1,12 @@
+<script src="geo.js" type="application/javascript"></script>
+<script src="latlon.js" type="application/javascript"></script>
+
+
+<script> 
+  var p1 = new LatLon(Geo.parseDMS(45.052438363056616), Geo.parseDMS(7.629919052124023));
+  var brng = Geo.parseDMS(-45);
+  var dist = Math.sqrt(2);
+  var p2 = p1.destinationPoint(brng, dist);
+
+  alert (p2.toString('d'));
+</script>
