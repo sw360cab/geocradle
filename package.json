@@ -1,16 +1,23 @@
 {
   "name"            : "geocradle",
-  "description"     : "A library to store and get positions using Geocouch and Cradle features - rely on www.movable-type.co.uk scripts",
-  "url"             : "http://minimalgap.com:3000/geocradle",
+  "description"     : "A library to store and get positions / geoloactions using Geocouch and Cradle features - rely on www.movable-type.co.uk scripts",
+  "private"         : true,
+  "url"             : "https://bitbucket.org/sw360cab/geocradle",
   "keywords"        : ["geocradle","geocouch","spatial"],
   "author"          : "Sergio Matone <sergio@minimalgap.com>",
   "contributors"    : ["Chris Veness"],
   "dependencies": {
     "cradle" : "git://github.com/sw360cab/cradle.git"
   },
-  "version"         : "0.1.0",
+  "version"         : "0.2.0",
   "directories": {
     "lib": "./lib/geo"
+  },
+  "//scripts": {
+    "test": "node lib/jasmine-node/cli.js test.js"
+  },
+  "//devDependencies": {
+    "jasmine-node": ">=1.11.0"
   },
   "main"            : "./lib/geocradle",
   "engines"         : { "node": ">=0.3.6" }
