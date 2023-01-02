@@ -7,7 +7,7 @@
   "author"          : "Sergio Matone <sergio@minimalgap.com>",
   "contributors"    : ["Chris Veness"],
   "dependencies": {
-    "cradle" : "git://github.com/sw360cab/cradle.git"
+    "cradle" : "git+https://github.com/sw360cab/cradle.git"
   },
   "version"         : "0.2.0",
   "directories": {
